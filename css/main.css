@@ -1,0 +1,171 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+.promofixed {
+  background-color: black;
+  height: 20px;
+  color: white;
+  font-size: 13px;
+
+  width: 100%;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  height: 130px;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 0%;
+ 
+  
+    
+}
+
+.nav-links li {
+  list-style: none;
+  
+}
+
+
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Agency FB;
+}
+
+.burger {
+  display: none;
+}
+.burger a {
+
+  position: absolute;
+  left: 15%;
+  top: 2.5%;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+
+  background-color: black;
+  margin: 5px;
+}
+
+.div2 {
+  background-color: black;
+  height: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    height: 60px;
+  }
+  .promofixed{
+    display: none;
+  }
+
+  .nav-links {
+    position: absolute;
+    left: 0;
+    top: 61px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 50%;
+    transform: translateX(-100%); 
+    transition:  transform 1s ease;
+   
+    
+    
+   
+    
+   
+  }
+  
+  .nav-links li {
+    opacity: 0;
+   
+  }
+  .nav-links li:hover {
+    border-bottom : 3px solid black;
+    
+    transition:  0.1s ease-out;
+   
+    
+  
+  }
+
+  .burger {
+    display: block;
+    width: 90%;
+    cursor: pointer;
+  }
+
+  
+}
+.nav-active {
+  
+  transform: translateX(0%);
+  transition:  transform 1s ease;
+  
+  
+    
+  
+  
+  
+}
+
+
+
+@keyframes navLinkFade{
+
+  from{
+    opacity: 0;
+    transform: translateX(-50px);
+    
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+    
+  }
+}
+
+.maindiv {
+
+  height: 600px;
+  background-color: black;
+  color: white;
+}
+
+
+
+

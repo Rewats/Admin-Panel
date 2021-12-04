@@ -1,0 +1,44 @@
+
+.font{
+    
+    font-family: Arial ;
+    padding: 30px;
+     text-align: justify;
+    font-size: 20px;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.font2{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    
+    padding: 1px;
+
+
+}
+.baslık{
+    font-family: Impact;
+    font-size: 45px;
+    color: black;
+}
+
+.home{
+    font-size: xx-large;
+}
+
+b{
+
+ font-family: Cooper Black;
+
+}
+.footer{
+    font-family: Brush Script MT İtalik;
+    font-size: x-large;
+    
+    
+    
+    
+    
+}
